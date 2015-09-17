@@ -19,9 +19,9 @@ left: 50%;
 
 width: 100%;
 
-min-width: 100%;
+min-width: auto;
 
-min-height: 100%;
+min-height: auto;
 
 width: auto;
 
@@ -41,9 +41,9 @@ background-size: cover;
 
 
 
-@media screen and (max-device-width: 800px) {
+@media screen and (max-device-width: 300px) {
 
-body { background: url(polina.jpg) #000 no-repeat center center fixed; }
+body { background: url() #000 no-repeat center center fixed; }
 
 #bgvid { display: none; }
 
